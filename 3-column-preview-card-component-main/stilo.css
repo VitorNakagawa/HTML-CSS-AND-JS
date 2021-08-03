@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.box {
+    padding: 25px;
+    text-align: justify;
+}
+
+input {
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px;
+    width: 50%;
+    border-radius: 50px;
+    color: inherit;
+    border: none;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.orange input {
+    color: hsl(31, 77%, 52%);
+}
+
+.green {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.green input {
+    color: hsl(184, 100%, 22%);
+}
+
+.moregreen {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.moregreen input {
+    color: hsl(179, 100%, 13%);
+}

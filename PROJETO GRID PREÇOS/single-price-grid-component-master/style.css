@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla";
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.pricegrid {
+    width: 45%;
+    margin: 100px auto;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 45% 55%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    overflow: hidden;
+}
+
+h3 {
+    color: hsl(179, 62%, 43%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price h3 {
+    color: white;
+}
+
+span {
+    color: hsl(71, 73%, 54%);
+}
+
+.price span {
+    font-size: 40px;
+    color: white;
+}
+
+.join {
+    grid-column: 1 / -1;
+    grid-row: 1 /2;
+    box-sizing: border-box;
+    color: hsl(218, 22%, 67%);
+    height: max-content;
+}
+
+.price {
+    grid-template-columns: 1/ 2;
+    grid-template-rows: 2/ 3;
+    box-sizing: border-box;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.price input {
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 1px 1px 1px black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    transition: background-color 1s;
+    margin: auto;
+    padding: 10px;
+}
+
+.price input:hover {
+    background-color: hsl(71, 90%, 70%);
+}
+
+.justification {
+    grid-template-columns: 2/3;
+    grid-template-rows: 2/ 3;
+    box-sizing: border-box;
+    background-color: hsl(179, 53%, 57%);
+}
+
+.green {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
